@@ -830,7 +830,7 @@ def build_communication_agent() -> Agent:
     # TODO: Create a BedrockModel
     model = BedrockModel(
         model_id=config.WORKER_MODEL_ID,
-        temperature=0.1,
+        temperature=0.3,
     )
 
     # TODO: System prompt for the Communication Agent
